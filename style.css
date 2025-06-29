@@ -1,0 +1,91 @@
+
+body {
+  background-color: #e6f0ff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #d4e6fb;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(120,140,180,0.12);
+  border: 1px solid #a3c4e6;
+}
+
+fieldset {
+  border: 2px solid #a3c4e6;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  padding: 16px 20px 20px 20px;
+  background: #f7fbff;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.1em;
+  background: #ff8552;
+  color: white;
+  padding: 4px 16px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  border: 2px solid #faab7b;
+  box-shadow: 1px 1px 8px #faab7b11;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="month"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1.5px solid #a3c4e6;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background: white;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 6px;
+  margin-left: 2px;
+  accent-color: #468cff;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 14px 0;
+  background-color: #268aff;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 3px 16px rgba(80,140,200,0.13);
+}
+
+button[type="submit"]:hover {
+  background-color: #2066cc;
+}
+
+/* Termos e condições checkbox */
+fieldset:last-of-type label {
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 6px;
+  color: #222;
+}
